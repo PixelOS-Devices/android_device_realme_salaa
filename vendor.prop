@@ -143,6 +143,7 @@ ro.vendor.mtk_hdr_video_support=1
 ro.vendor.pref_scale_enable_cfg=1
 vendor.mtk.vdec.waitkeyframeforplay=9
 media.c2.dmabuf.padding=3072
+media.c2.hal.selection=aidl
 
 # GPS
 ro.vendor.mtk_agps_app=1
