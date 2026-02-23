@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "PixelOS-AOSP/android_hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_realme_salaa",
+    "target_path": "kernel/realme/salaa"
+  },
+  {
+    "repository": "YAAP/device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr",
+    "branch": "sixteen"
+  },
+  {
+    "repository":  "YAAP/hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch": "sixteen"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_realme_salaa",
+    "target_path": "vendor/realme/salaa"
+  }
+]

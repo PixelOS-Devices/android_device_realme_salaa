@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_salaa.mk
+    $(LOCAL_DIR)/custom_salaa.mk
