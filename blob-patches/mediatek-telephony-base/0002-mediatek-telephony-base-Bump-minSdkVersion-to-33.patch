@@ -1,0 +1,26 @@
+From 6f471496879ebda1171ab814955ffbe253a7484b Mon Sep 17 00:00:00 2001
+From: bengris32 <bengris32@protonmail.ch>
+Date: Thu, 5 Oct 2023 20:09:05 +0100
+Subject: [PATCH 2/2] mediatek-telephony-base: Bump minSdkVersion to 33
+
+* okay?
+---
+ apktool.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/apktool.yml b/apktool.yml
+index 2263fbe..ffed576 100644
+--- a/apktool.yml
++++ b/apktool.yml
+@@ -5,7 +5,7 @@ usesFramework:
+   ids:
+   tag: null
+ sdkInfo:
+-  minSdkVersion: 28
++  minSdkVersion: 33
+ packageInfo:
+   forcedPackageId: null
+   renameManifestPackage: null
+-- 
+2.43.0
+
