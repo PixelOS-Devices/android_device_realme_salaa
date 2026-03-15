@@ -283,7 +283,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.multihal \
+    android.hardware.sensors-service.oplus-multihal \
     android.hardware.sensors@2.0-subhal-impl-1.0
 
 PRODUCT_COPY_FILES += \
