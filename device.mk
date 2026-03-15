@@ -177,7 +177,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     SalaaFrameworksOverlay \
-    SalaaOplusDozeOverlay \
     SalaaSettingsOverlay \
     SalaaSystemUIOverlay \
     SalaaTelephonyOverlay \
