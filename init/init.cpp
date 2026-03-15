@@ -102,7 +102,7 @@ void set_device_props(void){
 
     if (ReadFileToString(operator_code_file, &operator_code_raw)) {
         int operator_code = stoi(operator_code_raw);
-	    switch (operator_code) {
+        switch (operator_code) {
             case 140:
             case 141:
             case 146:
@@ -151,13 +151,14 @@ void set_device_props(void){
                 model="";
                 fingerprint="";
                 market_name="";
-		}
+        }
     }
 
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_build_prop("device", device);
     set_ro_build_prop("model", model);
     set_ro_build_prop("name", model);
+    set_ro_build_prop("marketname", market_name);
     set_ro_build_prop("product", model, false);
     property_override("ro.product.device", device.c_str());
     property_override("ro.vendor.device", device.c_str());
