@@ -77,7 +77,7 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
-    android.hardware.memtrack-service.mediatek-mali
+    android.hardware.memtrack-service.mediatek
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
